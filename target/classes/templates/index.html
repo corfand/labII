@@ -5,15 +5,13 @@
 	<h2>
 		Livraria Técnica
 	</h2>
+	
 	<ul>
-		<li>Java</li>
-		<li>Eclipe</li>
-		<li>Spring Boot</li>
-		<li>Mustache</li>
-		<li>Bootstrap</li>
-		<li>MySql</li>
+	{{#lista}}
+		<li>{{.}}</li>
+	{{/lista}}
 	</ul>
-	<h3>By Hernando Brasileiro</h3>
+	<h3>By {{developer}}</h3>
 </div>
 
 {{>layout/footer}}
