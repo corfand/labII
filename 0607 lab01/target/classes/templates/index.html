@@ -1,0 +1,17 @@
+{{>layout/header}}
+
+<div class="starter-template">
+	<h1>Spring Boot Web Mustache Example</h1>
+	<h2>
+		Livraria Técnica
+	</h2>
+	
+	<ul>
+	{{#lista}}
+		<li>{{.}}</li>
+	{{/lista}}
+	</ul>
+	<h3>By {{developer}}</h3>
+</div>
+
+{{>layout/footer}}
